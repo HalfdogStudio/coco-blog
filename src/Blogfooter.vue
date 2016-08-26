@@ -1,6 +1,7 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
+  <div class="blogfooter">
+    <div>copyleft＠2011-2016</div>
+    <div>reverland built with vue and webpack</div>
   </div>
 </template>
 
@@ -12,7 +13,7 @@ export default {
       // with hot-reload because the reloaded component
       // preserves its current state and we are modifying
       // its initial state.
-      msg: 'Hello World!'
+      msg: 'copyleft＠2011-2016\nreverland built with vue and webpack'
     }
   }
 }
@@ -20,7 +21,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1 {
-  color: #42b983;
+.blogfooter {
+  clear:both;
+  text-align:center;
+  margin:0 auto;
 }
 </style>
