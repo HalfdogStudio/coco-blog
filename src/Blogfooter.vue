@@ -1,7 +1,11 @@
 <template>
-  <div class="blogfooter">
-    <div>copyleft＠2011-2016</div>
-    <div>reverland built with vue and webpack</div>
+  <div class="ui container">
+  <div class="ui segment">
+      <div class="blogfooter">
+        <div>copyleft＠2011-2016</div>
+        <div>reverland built with vue and webpack</div>
+      </div>
+  </div>
   </div>
 </template>
 

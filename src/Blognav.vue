@@ -1,12 +1,12 @@
 <template>
-  <div class="HelloNav">
-    <ul>
-      <li>Home</li>
-      <li>Archives</li>
-      <li>Categories</li>
-      <li>Tags</li>
-      <li>RSS</li>
-    </ul>
+  <div class="ui container">
+    <div class="ui secondary pointing menu">
+      <a class="item active">Home </a>
+      <a class="item">Archives </a>
+      <a class="item">Categories </a>
+      <a class="item">Tags </a>
+      <a class="item">RSS </a>
+    </div>
   </div>
 </template>
 
