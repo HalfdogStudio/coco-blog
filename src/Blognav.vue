@@ -1,6 +1,12 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
+  <div class="ui container">
+    <div class="ui secondary pointing menu">
+      <a class="item active">Home </a>
+      <a class="item">Archives </a>
+      <a class="item">Categories </a>
+      <a class="item">Tags </a>
+      <a class="item">RSS </a>
+    </div>
   </div>
 </template>
 
@@ -12,7 +18,7 @@ export default {
       // with hot-reload because the reloaded component
       // preserves its current state and we are modifying
       // its initial state.
-      msg: 'Hello World!'
+      msg: 'msg'
     }
   }
 }
@@ -20,7 +26,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1 {
-  color: #42b983;
+
+.HelloNav ul li {
+  float: left;
+  width:120px;
 }
 </style>
