@@ -1,11 +1,11 @@
 <template>
   <div class="ui container">
     <div class="ui secondary pointing menu">
-      <a class="item active">Home </a>
-      <a class="item">Archives </a>
-      <a class="item">Categories </a>
-      <a class="item">Tags </a>
-      <a class="item">RSS </a>
+      <a v-link="{ path: '/home' }" class="item active">Home</a>
+      <a v-link="{ path: '/archives' }" class="item">Archives</a>
+      <a v-link="{ path: '/categories' }" class="item">Categories </a>
+      <a v-link="{ path: '/tags' }" class="item">Tags </a>
+      <a v-link="{ path: '/rss' }" class="item">RSS </a>
     </div>
   </div>
 </template>
@@ -22,6 +22,7 @@ export default {
     }
   }
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
